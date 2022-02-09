@@ -1,0 +1,13 @@
+/*  Les médias query vont s'apparenter à des if selon les plateforme sur lesquelles seront lues le contenu.
+    On va ainsi définir des breaking points de taille en fonction des tailles d'écran
+    Les mq seront ouvertes et fermées par des {} encadrant l'élément du site 
+    Si écrna mobile 
+*/
+@media only screen and (max-width:600px) {
+    body{
+        background-color: blue;
+    }
+    .slider{
+        display:none;
+    }
+}
